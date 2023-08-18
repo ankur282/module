@@ -349,8 +349,8 @@ int pcd_platform_driver_probe(struct platform_device *pdev)
 
 struct platform_device_id pcdevs_ids[] = 
 {
-	[0] = {.name = "pcdev-A1x",.driver_data = PCDEVA1X},
-	[1] = {.name = "pcdev-B1x",.driver_data = PCDEVB1X},
+	[0] = {.name = "pcdev-imx8mp1",.driver_data = PCDEVA1X},
+	[1] = {.name = "pcdev-imx8mp2",.driver_data = PCDEVB1X},
 	
 	{ } /*Null termination */
 };
